@@ -1,0 +1,20 @@
+{
+  "name": "hello-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "npm": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon --exec babel-node --presets=es2015 server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
